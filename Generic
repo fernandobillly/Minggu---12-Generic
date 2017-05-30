@@ -1,0 +1,19 @@
+public class sepatuNike {
+    private sepatuNike data;
+
+public sepatuNike getData(){
+    return data;
+    }
+public void setData (sepatuNike Data){
+    this.data = data;
+    }
+}
+
+public class Sepatu {
+    sepatuNike string;
+    public static void main(String[] args) {
+    sepatuNike <String> genString = new sepatuNike<>();
+    genString.setData("Sepatu Olahraga");
+    System.out.println(genString.getData());
+    }
+}
